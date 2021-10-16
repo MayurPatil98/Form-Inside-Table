@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="FinalForm.css">
+</head>
+
+<body>
+    <div id="fheading">Student Admission Form</div>
+    <form>
+        <!-- Below table is for login process -->
+        <table id="table1" style="float: left;">
+            <tr>
+                <th>Login Your Accout </th>
+            </tr>
+            <tr>
+                <td>Username</td>
+            </tr>
+            <tr>
+                <td><input type="text" name="userID" placeholder="User ID"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+            </tr>
+            <tr>
+                <td><input type="password" placeholder="Passward"></td>
+            </tr>
+            <tr>
+                <td><input class="submit" type="submit" value="Login here"> &nbsp;<a
+                        href="https://www.google.com">Forgot Passward</a>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <!-- Below table is for Registration Process -->
+    <form>
+        <table id="table2" style="float: left;">
+            <tr>
+                <th>Register Or Sign Up</th>
+            </tr>
+            <tr>
+                <td>
+                    <table class="infotable">
+                        <tr>
+                            <td>Profile Information</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <hr>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>First Name:</td>
+                            <td>Last Name:</td>
+                        </tr>
+                        <tr>
+                            <td class="register"><input type="text" placeholder="First Name"></td>
+                            <td class="register"><input type="text" placeholder="Last Name:"></td>
+                        </tr>
+                        <tr>
+                            <td>Email Address</td>
+                            <td>Choose A Username</td>
+                        </tr>
+                        <tr>
+                            <td><input type="email" name="EmailID" placeholder="Email"></td>
+                            <td><input type="text" name="UserID" placeholder="User ID"></td>
+                        </tr>
+                        <tr>
+                            <td>Contact</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="mobnumber" placeholder="1234567890" maxlength="10"
+                                    minlength="10"></td>
+                        </tr>
+                        <tr>
+                            <td>Choose Passward</td>
+                            <td>Re-Enter Passward</td>
+                        </tr>
+                        <tr>
+                            <td><input type="password" placeholder="********" name="passward"></td>
+                            <td><input type="password" placeholder="********" name="rpassward"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="infotable">
+                        <tr>
+                            <td>Personal Information</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <hr style="">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Name</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="Enter Full Name" name="FullName" style="width: 50%;">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Gender:<input type="radio" name="gender" value="male">Male <input type="radio"
+                                    name="gender" value="female">Female <input type="radio" name="gender"
+                                    value="other">Other</td>
+                        </tr>
+                        <tr>
+                            <td>Date Of Birth</td>
+                            <td>Age</td>
+                        </tr>
+                        <tr>
+                            <td><input type="date" name="DOB"></td>
+                            <td><input type="number" name="age" placeholder="88"></td>
+                        </tr>
+                        <tr>
+                            <td> Maritial Status</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select>
+                                    <option value="Married">Married</option>
+                                    <option value="Unmarried">Unmarried</option>
+                                    <option value="Divorcee">Divorcee</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Adhar Number</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="8888 8888 8888" maxlength="12" minlength="12"></td>
+                        </tr>
+                        <tr>
+                            <td>Mobile number is linked with adhar<input type="checkbox" checked></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="infotable">
+                        <tr>
+                            <td>Address</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <hr>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                        </tr>
+                        <tr>
+                            <td><textarea name="Addres" cols="30" rows="10" placeholder="Type Here"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>State</td>
+                            <td>Pincode</td>
+                        </tr>
+                        <tr>
+                            <td><select name="state">
+                                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                    <option value="Assam">Assam</option>
+                                    <option value="Bihar">Bihar</option>
+                                    <option value="Chattisgrah">Chattisgrah</option>
+                                    <option value="Goa">Goa</option>
+                                    <option value="Gujarat">Gujarat</option>
+                                    <option value="Haryana">Haryana</option>
+                                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                    <option value="Maharashtra">Maharashtra</option>
+                                    <option value="Manipur">Manipur</option>
+                                    <option value="Meghalaya">Meghalaya</option>
+                                    <option value="Mizoram">Mizoram</option>
+                                    <option value="Nagaland">Nagaland</option>
+                                    <option value="Odisha">Odisha</option>
+                                    <option value="Punjab">Punjab</option>
+                                    <option value="Rajastan">Rajastan</option>
+                                    <option value="Sikkim">Sikkim</option>
+                                    <option value="Tamil Nadu">Tamil Nadu</option>
+                                    <option value="telangana">telangana</option>
+                                    <option value="Tripura">Tripura</option>
+                                    <option value="Uttarakhand">Uttarakhand</option>
+                                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                    <option value="west Bangal">west Bangal</option>
+                                    <option value="Andaman & Nicobar Island">Andaman & Nicobar Island</option>
+                                    <option value="Chandigarh">Chandigarh</option>
+                                    <option value="Dadra and nagar haveli and daman & diu">Dadra and nagar haveli and
+                                        daman & diu</option>
+                                    <option value="delhi">delhi</option>
+                                    <option value="Jammu">Jammu</option>
+                                    <option value="Kashmir">Kashmir</option>
+                                    <option value="Ladakh">Ladakh</option>
+                                    <option value="Lakshdweep">Lakshdweep</option>
+                                    <option value="Puducherry">Puducherry</option>
+                                    <option value="jharkhand">jharkhand</option>
+                                    <option value="Karnataka">Karnataka</option>
+                                    <option value="kerala">kerala</option>
+                                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                </select></td>
+                            <td><input type="text" name="pincode" placeholder="888888" maxlength="6" minlength="6"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center;"><input class="submit" type="submit" value="Register Now">
+                    &nbsp;&nbsp;&nbsp;&nbsp;<input class="reset" type="reset" value="Reset"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
